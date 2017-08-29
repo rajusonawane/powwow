@@ -1,0 +1,34 @@
+{
+  "id": "app",
+  "name": "powwow_2",
+  "startScreen": "app.popup",
+  "screens": [
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "PopupSampleApp",
+      "sourceScreenId": "app.menu"
+    },
+    {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "PopupSampleApp",
+      "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "popup",
+      "name": "popup",
+      "sourceScreenId": "app.popup",
+      "sourceAppId": "PopupSampleApp",
+      "model": "alert"
+    },
+    {
+      "id": "howto",
+      "name": "HowTo",
+      "sourceScreenId": "app.howto",
+      "sourceAppId": "PopupSampleApp"
+    }
+  ],
+  "sourceAppId": "PopupSampleApp",
+  "sourceScreenId": "app"
+}

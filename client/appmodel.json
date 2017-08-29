@@ -1,0 +1,37 @@
+{
+  "popup": {
+    "type": "object",
+    "comment": "Confirmation",
+    "properties": {
+      "headlineText": {
+        "type": "string",
+        "label": "HeadlineText"
+      },
+      "detailText": {
+        "type": "string",
+        "label": "DetailText"
+      }
+    }
+  },
+  "alert": {
+    "type": "object",
+    "properties": {
+      "alert": {
+        "type": "action"
+      },
+      "confirm": {
+        "type": "action"
+      },
+      "alertConfirmationMessage": {
+        "type": "string"
+      },
+      "confirmPopupText": {
+        "type": "string"
+      },
+      "confirmMessage": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  }
+}

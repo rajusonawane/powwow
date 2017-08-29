@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "isDialogPage": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.196grg10"
+    },
+    "confirm": {
+      "type": "action",
+      "selector": "#confirm",
+      "control": "action.button"
+    },
+    "alertConfirmationMessage": {
+      "type": "string",
+      "selector": "#alertMessage",
+      "control": "property.innerText"
+    },
+    "confirmPopupText": {
+      "type": "string",
+      "selector": "#confirmMessage",
+      "control": "property.innerText"
+    },
+    "alertAction": {
+      "type": "action",
+      "control": "action.button",
+      "selector": "#alert"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "isDialogPage"
+      ],
+      "screens": [
+        "popup"
+      ]
+    }
+  ],
+  "frameSelector": "[src='//fiddle.jshell.net/madhukarjha/196grg10/show/light/']"
+}
